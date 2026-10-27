@@ -90,7 +90,7 @@ Both results are merged and shown side by side in the web app.
 | --- | --- |
 | Front-end | Streamlit (custom CSS, Bricolage Grotesque and Literata fonts) |
 | Back-end | FastAPI, Uvicorn |
-| Embeddings | Hugging Face embeddings |
+| Embeddings | Pinecone embeddings |
 | Vector database | Pinecone |
 | Keyword search | BM25 |
 | Reranking | Reranker model |
