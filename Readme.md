@@ -238,6 +238,7 @@ The back-end builds its keyword index from the documents at startup, so it can t
 
 The retrieval and generation pipeline is evaluated with [RAGAS](https://docs.ragas.io/).
 
+- The result of Ragas(Evaluation) is store in `ragas_medical_result.csv` file 
 - The evaluation questions and reference answers are defined in `RAG_Pipeline/ragas_data.py`.
 - Run the evaluation with:
 
