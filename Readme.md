@@ -124,7 +124,7 @@ Both results are merged and shown side by side in the web app.
 ├── .streamlit/
 │   └── config.toml             # Streamlit theme (colour palette)
 ├── requirements.txt
-└── .env                        # API keys (never commit this file)
+└── .env                        # API keys (I' have not commit this file)
 ```
 
 ---
