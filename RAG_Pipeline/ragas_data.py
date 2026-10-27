@@ -1,0 +1,118 @@
+data_samples2 = [
+    # ======================= anatomy-and-physiology(book).pdf =======================
+    {
+        "question": "What are the four chambers of the heart, and what is the role of the atria and ventricles?",
+        "answer": "The heart has four chambers: the right atrium, right ventricle, left atrium, and left ventricle. "
+                  "The atria are the upper chambers that receive blood returning to the heart, and the ventricles are "
+                  "the lower chambers that pump blood out of the heart. The right side sends oxygen-poor blood to the "
+                  "lungs, and the left side sends oxygen-rich blood to the rest of the body.",
+        "contexts": [
+            "The human heart is divided into four chambers. The two upper chambers, the right and left atria, receive "
+            "blood returning to the heart, while the two lower chambers, the right and left ventricles, have thicker "
+            "walls and pump blood out of the heart.",
+            "The right side of the heart receives oxygen-poor blood from the body and sends it to the lungs through the "
+            "pulmonary circuit. The left side receives oxygen-rich blood from the lungs and pumps it to the rest of the "
+            "body through the systemic circuit.",
+            "Heart valves, including the tricuspid, pulmonary, mitral, and aortic valves, keep blood flowing in one "
+            "direction through the heart.",
+        ],
+        "ground_truth": "The heart has four chambers: the right atrium, right ventricle, left atrium, and left ventricle. "
+                        "The atria are the upper chambers that receive blood returning to the heart, while the ventricles "
+                        "are the lower chambers that pump blood out of the heart. The right side pumps blood to the lungs "
+                        "and the left side pumps blood to the rest of the body.",
+    },
+    {
+        "question": "What is the function of the nephron in the kidney?",
+        "answer": "The nephron is the functional unit of the kidney. It filters blood at the glomerulus, reabsorbs "
+                  "useful substances such as water, glucose, and ions along the tubule, and secretes wastes, which "
+                  "produces urine.",
+        "contexts": [
+            "The nephron is the basic structural and functional unit of the kidney. Each kidney contains about a "
+            "million nephrons, and each one is made of a renal corpuscle and a long renal tubule.",
+            "Blood is filtered in the glomerulus, a tuft of capillaries inside the renal corpuscle. The filtered fluid "
+            "then passes along the tubule, where water, glucose, and ions are reabsorbed into the blood and wastes are "
+            "secreted into the fluid.",
+            "The remaining fluid, now called urine, leaves the nephron through collecting ducts and travels to the "
+            "renal pelvis, the ureter, and then the bladder.",
+        ],
+        "ground_truth": "The nephron is the functional unit of the kidney. It filters blood at the glomerulus, reabsorbs "
+                        "useful substances such as water, glucose, and ions, and secretes wastes, forming urine.",
+    },
+    {
+        "question": "What are the main functions of the skeletal system?",
+        "answer": "The skeletal system supports the body and gives it shape, protects internal organs such as the brain, "
+                  "heart, and lungs, and provides attachment points for muscles so movement is possible. It also stores "
+                  "minerals like calcium and phosphorus, produces blood cells in red bone marrow, and stores fat in "
+                  "yellow bone marrow.",
+        "contexts": [
+            "The skeletal system has several major functions. It supports the body and gives it shape, protects "
+            "delicate organs such as the brain, heart, and lungs, and provides attachment points for muscles so that "
+            "movement is possible.",
+            "Bones act as a reservoir for minerals, mainly calcium and phosphorus. Red bone marrow produces blood "
+            "cells, and yellow bone marrow stores fat.",
+            "Bones are classified by shape as long, short, flat, or irregular, and each type is suited to different "
+            "mechanical roles.",
+        ],
+        "ground_truth": "The skeletal system supports the body, protects internal organs, and allows movement by providing "
+                        "attachment points for muscles. It also stores minerals such as calcium and phosphorus, produces "
+                        "blood cells in the red bone marrow, and stores fat in the yellow bone marrow.",
+    },
+
+    # ======================= The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf =======================
+    {
+        "question": "What is asthma and what are its main symptoms?",
+        "answer": "Asthma is a chronic inflammatory disease of the airways in which the airways become swollen, narrowed, "
+                  "and unusually sensitive. Its main symptoms are recurring wheezing, shortness of breath, chest "
+                  "tightness, and coughing. Attacks can be triggered by allergens, exercise, cold air, smoke, or "
+                  "respiratory infections.",
+        "contexts": [
+            "Asthma is a chronic inflammatory disease of the airways. The airways become swollen, narrowed, and "
+            "unusually sensitive to certain triggers, which makes breathing difficult.",
+            "Typical symptoms of asthma are recurrent wheezing, shortness of breath, chest tightness, and coughing, "
+            "which are often worse at night or in the early morning.",
+            "Asthma attacks may be triggered by allergens such as pollen or dust mites, exercise, cold air, smoke, and "
+            "respiratory infections.",
+        ],
+        "ground_truth": "Asthma is a chronic inflammatory disease of the airways in which the airways become narrowed and "
+                        "overly sensitive, causing recurring episodes of wheezing, shortness of breath, chest tightness, "
+                        "and coughing. Attacks can be triggered by allergens, exercise, cold air, or respiratory infections.",
+    },
+    {
+        "question": "What is the difference between type 1 and type 2 diabetes mellitus?",
+        "answer": "In type 1 diabetes, the pancreas makes little or no insulin because the insulin-producing beta cells "
+                  "are destroyed, usually by the immune system, and it often begins in childhood or young adulthood. In "
+                  "type 2 diabetes, the body's cells resist insulin or the pancreas does not make enough of it. Type 2 is "
+                  "more common in adults and is linked to obesity.",
+        "contexts": [
+            "Type 1 diabetes mellitus results from destruction of the insulin-producing beta cells of the pancreas, "
+            "usually by an autoimmune process. The pancreas then makes little or no insulin, and the disease often "
+            "appears in childhood or young adulthood.",
+            "In type 2 diabetes, the body's cells become resistant to the effects of insulin, or the pancreas does not "
+            "make enough insulin to overcome the resistance. It is more common in adults and is strongly associated "
+            "with obesity and physical inactivity.",
+            "Both types of diabetes lead to high blood glucose levels, which over time can damage the eyes, kidneys, "
+            "nerves, and blood vessels.",
+        ],
+        "ground_truth": "In type 1 diabetes the pancreas produces little or no insulin, usually because the insulin-producing "
+                        "beta cells are destroyed by the immune system, and it often begins in childhood or young adulthood. "
+                        "In type 2 diabetes the body becomes resistant to insulin or does not produce enough of it, and it is "
+                        "more common in adults and is associated with obesity.",
+    },
+    {
+        "question": "What is pneumonia and what are its common symptoms?",
+        "answer": "Pneumonia is an infection and inflammation of the lungs, usually caused by bacteria or viruses and less "
+                  "often by fungi, in which the air sacs may fill with fluid or pus. Common symptoms include cough, fever "
+                  "and shaking chills, shortness of breath, and chest pain.",
+        "contexts": [
+            "Pneumonia is an infection and inflammation of the lungs. It is usually caused by bacteria or viruses, and "
+            "less often by fungi, and the air sacs may fill with fluid or pus.",
+            "Common symptoms of pneumonia include cough, fever and shaking chills, shortness of breath, and chest pain "
+            "when breathing or coughing.",
+            "Older adults, infants, smokers, and people with weakened immune systems have a higher risk of developing "
+            "pneumonia.",
+        ],
+        "ground_truth": "Pneumonia is an infection and inflammation of the lungs, usually caused by bacteria or viruses and "
+                        "sometimes fungi, in which the air sacs fill with fluid or pus. Common symptoms include cough, fever "
+                        "and chills, shortness of breath, and chest pain.",
+    },
+]

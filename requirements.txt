@@ -1,0 +1,28 @@
+# RAG
+langchain
+langchain-community<0.4
+langchain-groq
+langchain-google-genai
+langchain-huggingface
+sentence-transformers 
+langchain-classic
+langchain-pinecone
+pinecone
+ragas==0.2.8
+pypdf 
+rank_bm25
+
+# Environment
+python-dotenv
+fonttools 
+
+# Back-end 
+fastapi 
+uvicorn 
+
+# Font-end 
+streamlit 
+requests
+
+# MCP 
+mcp[cli]
